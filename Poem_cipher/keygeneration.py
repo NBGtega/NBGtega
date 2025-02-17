@@ -78,6 +78,7 @@ while not done:
         # Generate new sequence based on the first encrypted text
         second_sequence = sorted(range(len(first_encryption[:num_cols])), 
                                key=lambda i: first_encryption[i])
-
-
+        
+        #might take out the print statements on next update
+        
 
