@@ -72,6 +72,11 @@ while True:
         print(f"Found car: {car.make} {car.year}, Price: ${car.price}")
     else:
         print("car not found.")
+    
+    another_search = input("Do you want to search for another car? (yes/no)")
+    another_car.lower()
+    if another_car != "yes":
+        break
 
 
 
